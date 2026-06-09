@@ -1,0 +1,18 @@
+# Touch and Echo commands
+
+- Touch is used to create files in linux.
+- Echo is used to display any text you may display with a string ("). You can also use echo to redirect text into a file using the (>) symbol. to add new text wihout overriding the old text just use (>>)
+ 
+## Examples
+
+touch myfile.txt
+
+
+## What I Learned
+
+(your own summary)
+```
+
+## Your Notes
+
+- [ ] Add your first note
