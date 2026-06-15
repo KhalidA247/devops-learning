@@ -1,32 +1,26 @@
-# 01 - Linux Fundamentals
+tly into your README.md in VS Code and update as you progress.
 
-Linux is the foundation of DevOps. Most servers, containers, and cloud infrastructure run on Linux.
+# OverTheWire Bandit Progress
 
-## What You'll Learn
-
-- Navigating the file system
-- File permissions and ownership
-- Users and groups
-- Process management
-- Package management
-- Essential commands
-
-## Folder Structure
-
-```
-01-linux/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
-
-## Suggested Projects
-
-- [ ] Create a system info script that displays OS, memory, disk usage
-- [ ] Set up a new user with specific permissions
-- [ ] Write a log rotation script
-
-## Resources
-
-- [Linux Command Cheat Sheet](https://github.com/coderco-learning/dotfiles)
-- Man pages: `man <command>`
+| Level | Challenge | Command / Solution |
+|--------|-----------|-------------------|
+| 0 → 1 | | |
+| 1 → 2 | | |
+| 2 → 3 | | |
+| 3 → 4 | | |
+| 4 → 5 | | |
+| 5 → 6 | | |
+| 6 → 7 | | |
+| 7 → 8 | | |
+| 8 → 9 | | |
+| 9 → 10 | | |
+| 10 → 11 | | |
+| 11 → 12 | | |
+| 12 → 13 | | |
+| 13 → 14 | | |
+| 14 → 15 | | |
+| 15 → 16 | | |
+| 16 → 17 | | |
+| 17 → 18 | | |
+| 18 → 19 | | |
+| 19 → 20 | | |
