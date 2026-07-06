@@ -1,0 +1,43 @@
+
+Bash File tests 
+| Flag | Meaning                      | Example          |
+| ---- | ---------------------------- | ---------------- |
+| `-e` | Exists (file or directory)   | `[ -e "$file" ]` |
+| `-f` | Regular file exists          | `[ -f "$file" ]` |
+| `-d` | Directory exists             | `[ -d "$dir" ]`  |
+| `-r` | File is readable             | `[ -r "$file" ]` |
+| `-w` | File is writable             | `[ -w "$file" ]` |
+| `-x` | File is executable           | `[ -x "$file" ]` |
+| `-s` | File exists and is not empty | `[ -s "$file" ]` |
+| `-L` | Symbolic link exists         | `[ -L "$file" ]` |
+
+grep flags 
+| Flag | Meaning                              | Example                     |                |
+| ---- | ------------------------------------ | --------------------------- | -------------- |
+| `-i` | Ignore case                          | `grep -i error log.txt`     |                |
+| `-r` | Recursive search                     | `grep -r error logs/`       |                |
+| `-R` | Recursive (follows symlinks)         | `grep -R error logs/`       |                |
+| `-l` | Print filenames only                 | `grep -l error *.log`       |                |
+| `-n` | Show line numbers                    | `grep -n error log.txt`     |                |
+| `-v` | Invert match (exclude matches)       | `grep -v debug log.txt`     |                |
+| `-c` | Count matches                        | `grep -c error log.txt`     |                |
+| `-w` | Match whole words                    | `grep -w error log.txt`     |                |
+| `-E` | Extended regex                       | `grep -E "error             | fail" log.txt` |
+| `-F` | Fixed string search                  | `grep -F "192.168" log.txt` |                |
+| `-H` | Always show filename                 | `grep -H error *.log`       |                |
+| `-q` | Quiet mode (no output, check status) | `grep -q error log.txt`     |                |
+
+fswatch flags
+| Flag | Meaning                    |
+| ---- | -------------------------- |
+| `-r` | Recursive watch            |
+| `-o` | Output one event per batch |
+| `-x` | Extended event information |
+
+command flags 
+| Flag | Meaning              |
+| ---- | -------------------- |
+| `-l` | Long format          |
+| `-a` | Show hidden files    |
+| `-h` | Human readable sizes |
+| `-R` | Recursive            |
