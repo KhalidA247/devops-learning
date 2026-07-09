@@ -1,34 +1,37 @@
-# 02 - Bash Scripting
+# 02-bash
 
-Automate everything. Bash scripting turns repetitive tasks into one-click solutions.
+`01-linux` → **`02-bash`** → `03-git` → `04-networking` → `05-aws` → `06-kubernetes` → `07-terraform`
 
-## What You'll Learn
-
-- Variables and data types
-- Conditionals (if/else)
-- Loops (for, while)
-- Functions
-- Input/output handling
-- Error handling
-- Script best practices
-
-## Folder Structure
+## What's in here
 
 ```
 02-bash/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
+├── labs/          # Core concept scripts (loops, functions, arrays, error handling, etc.)
+├── notes/         # Reference scripts and notes on file operators, IFS, conditionals, etc.
+└── projects/      # Standalone challenge scripts (Bash Battle Arena levels + assignments)
 ```
 
-## Suggested Projects
+## Concepts covered so far
 
-- [ ] Build a deployment script
-- [ ] Create a health check script for services
-- [ ] Automate log cleanup with retention policies
-- [ ] Build a CLI menu system
+- Shebang lines, variables, positional parameters (`$1`, `$@`)
+- Arithmetic expansion `$(( ))` and `bc` for decimals
+- Conditionals: `if`/`elif`/`else`, file test operators (`-f`, `-d`, `-e`), string/numeric tests
+- Loops: `for`, `while`, nested loops
+- Redirection: `>` vs `>>`, `<`, piping
+- `read` for user input, `IFS` handling
+- Arrays and `${#array[@]}` for counting
+- Functions, `local` variables, return values
+- `grep`, `sort`, `awk` for text processing
+- `date` command with custom `+format` strings, command substitution `$( )`
+- Error handling and exit codes
+- Debugging scripts (VS Code unsaved-tab gotchas, Output panel vs Terminal for `read`)
 
-## Resources
+## Bash Battle Arena challenges
 
-- [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
-- [ShellCheck](https://www.shellcheck.net/) – Lint your scripts
+Progressive scripting challenges — file operations, backup automation, log searching,
+sorting by size, and a functional calculator. Each level builds on the last.
+
+## How I'm working
+
+- Mac, VS Code, zsh
+- Git via terminal commands only (`git add . && git commit -m "..." && git push`) — building good habits early
