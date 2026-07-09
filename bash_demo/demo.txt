@@ -1,0 +1,4 @@
+This demo.txt was created by a bash script on: 2026-07-09
+This demo.txt was created by a bash script on: 2026-07-09
+This demo.txt was created by a bash script on: 2026-07-09
+The file demo.txt was created by a bash script on: 2026-07-09

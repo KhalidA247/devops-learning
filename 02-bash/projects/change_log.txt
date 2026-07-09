@@ -1,8 +1,0 @@
-2026-07-06 23:41:56 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:42:12 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:42:14 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:42:21 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:42:22 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:43:39 File deleted: /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example2.txt
-2026-07-06 23:43:48 - File modified/created : /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example.txt
-2026-07-06 23:44:21 File deleted: /Users/khalidazeemi/devops-learning/02-bash/projects/Arena/example.txt
