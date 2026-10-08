@@ -1,19 +1,22 @@
-# Projects
+# Welcome to my Networking project! 
 
-Build hands-on projects to reinforce your learning.
+For this project i deployed a NGINX web server on an AWS EC2 instance, connecting it with an custom domain purchased on Cloudflare.
 
-## Project Structure
+# The tools i used...
 
-Each project should have:
+- 'AWS EC2'
+- 'Security groups'
+- 'Cloudflare DNS'
+- 'Key pair'
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+## 1. Launch an EC2 instance : 
+Firstly i created my EC2 instance configuring it to the needs of this project.
 
-## Your Projects
+- AMI (Amazon Linux)
+- Instance type - 't3.micro' (Utilising the free tier.)
+- RSA pair - Added a Key pair so that i can connect with SSH securely.
+- Inbound security group rules: 
+    - Allowing SSH (Port 22) only to my IP address to ensure security
+    - Allowing HTTP access (Port 80) on the 0.0.0.0/0 so that any IP address can access the web page.
 
-- [ ] Add your first project
-
+![EC2 Instance page](images/EC2-instance.png)
